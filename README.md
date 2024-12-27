@@ -1,4 +1,4 @@
-# Parkinson disease detection
+#Neural Network Movie reviews disease detection
 Technologies:
 1. Python
 2. Pandas
