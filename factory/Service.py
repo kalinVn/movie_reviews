@@ -1,5 +1,6 @@
 import config
 from service.MovieReviewPrediction import MovieReviewPrediction
+from service.MovieReviewPredictionKeras import MovieReviewPredictionKeras
 
 
 class Service:
@@ -10,4 +11,6 @@ class Service:
     def get_service(self):
         if self.service_type == "ML":
             return MovieReviewPrediction()
+
+        return MovieReviewPredictionKeras()
 
